@@ -1,0 +1,10 @@
+<% @movies.each do |movie| %>
+  <article class="movie">
+    <figure class="movie-image">
+      <%= image_tag movie.poster, class: 'movie-poster', alt: movie.title %>
+      <%= image_tag movie.backdrop, class: 'movie-backdrop', alt: movie.title %>
+    </figure>
+    <h1 class="movie-title"><%= movie.title %></h1>
+    <p class="movie-overview"><%= movie.overview %></p>
+  </article>
+<% end %>
