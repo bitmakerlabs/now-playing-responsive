@@ -15,6 +15,10 @@ html {
 
 body {
   margin: 0;
+
+  // We need to add some padding to the bottom of the body on mobile so that
+  //   the footer won't get covered by our navigation
+  padding-bottom: 60px;
 }
 
 // This rule ensure that all images always fit in their container

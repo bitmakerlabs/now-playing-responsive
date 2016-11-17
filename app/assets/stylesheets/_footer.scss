@@ -1,0 +1,27 @@
+.about {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+
+  & > p {
+    margin: 0;
+  }
+}
+
+
+.footer-nav {
+  padding: 1em;
+}
+
+.footer-nav-item {
+  display: inline-block;
+  margin-right: 0.5em;
+
+  // The :last-child pseudo-selector lets you select only the last element
+  //   within a containing element. Similarly, there's a :first-child pseudo-selector
+  //   to select the first child of a containing element.
+  &:last-child {
+    margin-right: 0;
+  }
+}
