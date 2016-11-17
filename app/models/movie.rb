@@ -1,4 +1,5 @@
 class Movie < ApplicationRecord
+  # These values are provided by TMDb for creating valid URLs to images
   IMAGE_CONFIG = {
     base_url: 'http://image.tmdb.org/t/p/',
     poster_sizes: ["w92", "w154", "w185", "w342", "w500", "w780", "original"],

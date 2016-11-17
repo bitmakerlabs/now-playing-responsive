@@ -1,5 +1,9 @@
 html {
   box-sizing: border-box;
+
+  // Source Sans Pro is served by Google Fonts
+  // Look in application.html.erb for the link tag that includes it
+  // Explore fonts here: https://fonts.google.com
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -11,6 +15,12 @@ html {
 
 body {
   margin: 0;
+}
+
+// This rule ensure that all images always fit in their container
+//   but are never stretched beyond their native resolution
+img {
+  max-width: 100%;
 }
 
 figure {
