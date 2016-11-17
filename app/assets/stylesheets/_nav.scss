@@ -1,0 +1,54 @@
+.site-logo {
+  margin: 0;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  width: 80px;
+  height: 80px;
+  z-index: 100;
+}
+
+.site-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+}
+
+.site-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-nav-item {
+  float: left;
+  width: 20%;
+  height: 60px;
+  text-align: center;
+  padding: 0.75em;
+  font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.6em;
+
+  // The ampersand (&) is a Sass feature that refers to the parent selector
+  //   In this case, it refers to `.site-nav-item`,
+  //   meaning this selector will end up as `.site-nav-item > .fa`
+  & > .fa {
+    font-size: 1.75rem;
+  }
+
+  &:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.site-nav-item-label {
+  display: block;
+  margin-top: 0.5em;
+}
