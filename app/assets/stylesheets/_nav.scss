@@ -15,7 +15,7 @@
   right: 0;
   width: 100%;
   z-index: $layer-one;
-  background-color: white;
+  background-color: $white;
 }
 
 .site-nav-list,
@@ -43,8 +43,8 @@
   }
 
   &:hover {
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
     cursor: pointer;
   }
 }
