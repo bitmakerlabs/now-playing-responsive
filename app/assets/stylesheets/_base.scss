@@ -1,10 +1,8 @@
 html {
   box-sizing: border-box;
-
-  // Source Sans Pro is served by Google Fonts
-  // Look in application.html.erb for the link tag that includes it
-  // Explore fonts here: https://fonts.google.com
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $base-font-family;
+  font-size: 100%;
+  color: $black;
 }
 
 *,
@@ -18,7 +16,7 @@ body {
 
   // We need to add some padding to the bottom of the body on mobile so that
   //   the footer won't get covered by our navigation
-  padding-bottom: 60px;
+  padding-bottom: $nav-bar-height;
 }
 
 // This rule ensure that all images always fit in their container

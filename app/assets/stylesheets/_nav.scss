@@ -1,11 +1,11 @@
 .site-logo {
-  margin: 0;
   position: fixed;
   top: 1rem;
   left: 1rem;
-  width: 80px;
-  height: 80px;
-  z-index: 100;
+  width: $mobile-logo-size;
+  height: $mobile-logo-size;
+  margin: 0;
+  z-index: $layer-one;
 }
 
 .site-nav {
@@ -14,7 +14,7 @@
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 100;
+  z-index: $layer-one;
   background-color: white;
 }
 
@@ -28,12 +28,12 @@
 .site-nav-item {
   float: left;
   width: 20%;
-  height: 60px;
-  text-align: center;
+  height: $nav-bar-height;
   padding: 0.75em;
-  font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: $label-font-family;
   font-size: 0.6em;
+  text-align: center;
+  text-transform: uppercase;
 
   // The ampersand (&) is a Sass feature that refers to the parent selector
   //   In this case, it refers to `.site-nav-item`,

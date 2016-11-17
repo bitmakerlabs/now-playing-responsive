@@ -1,17 +1,6 @@
-.about {
-  background-color: #333;
-  color: white;
-  padding: 1em;
-  text-align: center;
-
-  & > p {
-    margin: 0;
-  }
-}
-
-
 .footer-nav {
   padding: 1em;
+  text-align: center;
 }
 
 .footer-nav-item {
@@ -23,5 +12,15 @@
   //   to select the first child of a containing element.
   &:last-child {
     margin-right: 0;
+  }
+}
+
+.about {
+  background-color: $black;
+  color: $white;
+  padding: 1em;
+
+  & > p {
+    margin: 0;
   }
 }

@@ -20,7 +20,7 @@
   right: 0;
   width: 100%;
   padding: 1em;
-  color: white;
+  color: $white;
 
   // Linear gradients are a bit of an advanced CSS3 feature.
   //   As seen below you specify the linear-gradient as a value for
@@ -28,7 +28,7 @@
   //   as you care to define. To learn more about how it works, read this article
   //   and the related docs: https://medium.com/@patrickbrosset/do-you-really-understand-css-linear-gradients-631d9a895caf#.6yl8vdmiv
 
-  background-image: linear-gradient(transparent 0%, rgba(0,0,0,0.7) 100%);
+  background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.7) 100%);
 }
 
 // Hide the overview on mobile devices
@@ -38,11 +38,11 @@
 }
 
 .movie-title-label {
-  font-family: "Montserrat", sans-serif;
+  font-family: $label-font-family;
   font-size: 0.7em;
   line-height: 1;
   text-transform: uppercase;
-  color: gold;
+  color: $yellow;
   margin: 0;
 }
 
