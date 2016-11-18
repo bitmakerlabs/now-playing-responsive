@@ -30,6 +30,8 @@ You'll need to get familiar with your browser developer tools to efficiently wor
 
 For a refresher on how to use the Chrome Developer Tools for inspecting HTML and CSS, [check out Chapters 1 & 2 of this free Code School tutorial](http://discover-devtools.codeschool.com/)
 
+**Hint** When designing for mobile on your desktop, you can get a good approximation of how it will behave on phones by turning on [Device Emulation Mode](https://developers.google.com/web/tools/chrome-devtools/device-mode/) in Chrome DevTools (it also exists in other browsers).
+
 ### Mobile-first
 
 This is the design you're starting out with:
